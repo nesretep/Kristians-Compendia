@@ -4,32 +4,27 @@
   "description": "Creates a default set of compendia that are shared across Foundry VTT worlds hosted on the same server.",
   "version": "1.3.0",
   "authors": [
-    { "name": "Kristian Pettersen", "url": "https://github.com/nesretep" },
-    { "name": "Stephan Schölzel", "url": "https://github.com/stschoelzel", "role": "Original Author" }
+    { "name": "Kristian Petersen", "url": "https://github.com/nesretep" },
+    { "name": "Stephan Schölzel", "url": "https://github.com/stschoelzel", "role": "Original Author" }
   ],
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
-  "packfolders": [
-    {
-      "name": "My Shared Compendia",
-      "sorting": "m",  
-      "packs": [
-        { "name": "actors",        "label": "Actors (shared)",          "path": "packs/actors.db",        "type": "Actor",        "system": "dnd5e" },
-        { "name": "monsters",      "label": "Monsters (shared)",        "path": "packs/monsters.db",      "type": "Actor",        "system": "dnd5e" },
-        { "name": "items",         "label": "Items (shared)",           "path": "packs/items.db",         "type": "Item",         "system": "dnd5e" },
-        { "name": "spells",        "label": "Spells (shared)",          "path": "packs/spells.db",        "type": "Item",         "system": "dnd5e" },
-        { "name": "classes",       "label": "Classes (shared)",         "path": "packs/classes.db",       "type": "Item",         "system": "dnd5e" },
-        { "name": "subclasses",    "label": "Subclasses (shared)",      "path": "packs/subclasses.db",    "type": "Item",         "system": "dnd5e" },
-        { "name": "feats",         "label": "Feats (shared)",           "path": "packs/feats.db",         "type": "Item",         "system": "dnd5e" },
-        { "name": "scenes",        "label": "Scenes (shared)",          "path": "packs/scenes.db",        "type": "Scene",        "system": "dnd5e" },
-        { "name": "journal",       "label": "Journal Entries (shared)", "path": "packs/journal.db",       "type": "JournalEntry", "system": "dnd5e" },
-        { "name": "macros",        "label": "Macros (shared)",          "path": "packs/macro.db",         "type": "Macro",        "system": "dnd5e" },
-        { "name": "rolltable",     "label": "Roll Tables (shared)",     "path": "packs/rolltable.db",     "type": "RollTable",    "system": "dnd5e" },
-        { "name": "playlist",      "label": "Playlist (shared)",        "path": "packs/playlist.db",      "type": "Playlist",     "system": "dnd5e" }
-      ]
-    }
+  "packs": [
+  { "name": "actors",        "label": "Actors (shared)",          "path": "packs/actors.db",        "type": "Actor",        "system": "dnd5e" },
+  { "name": "monsters",      "label": "Monsters (shared)",        "path": "packs/monsters.db",      "type": "Actor",        "system": "dnd5e" },
+  { "name": "items",         "label": "Items (shared)",           "path": "packs/items.db",         "type": "Item",         "system": "dnd5e" },
+  { "name": "spells",        "label": "Spells (shared)",          "path": "packs/spells.db",        "type": "Item",         "system": "dnd5e" },
+  { "name": "classes",       "label": "Classes (shared)",         "path": "packs/classes.db",       "type": "Item",         "system": "dnd5e" },
+  { "name": "subclasses",    "label": "Subclasses (shared)",      "path": "packs/subclasses.db",    "type": "Item",         "system": "dnd5e" },
+  { "name": "feats",         "label": "Feats (shared)",           "path": "packs/feats.db",         "type": "Item",         "system": "dnd5e" },
+  { "name": "scenes",        "label": "Scenes (shared)",          "path": "packs/scenes.db",        "type": "Scene",        "system": "dnd5e" },
+  { "name": "journal",       "label": "Journal Entries (shared)", "path": "packs/journal.db",       "type": "JournalEntry", "system": "dnd5e" },
+  { "name": "macros",        "label": "Macros (shared)",          "path": "packs/macro.db",         "type": "Macro",        "system": "dnd5e" },
+  { "name": "rolltable",     "label": "Roll Tables (shared)",     "path": "packs/rolltable.db",     "type": "RollTable",    "system": "dnd5e" },
+  { "name": "playlist",      "label": "Playlist (shared)",        "path": "packs/playlist.db",      "type": "Playlist",     "system": "dnd5e" },
+  { "name": "adventures",    "label": "Adventures (shared)",      "path": "packs/adventures.db",    "type": "Adventure",    "system": "dnd5e" }
   ],
   "download": "https://github.com/nesretep/Kristians-Compendia/releases/download/v1.3.0/Kristians-Compendia.zip",
   "manifest": "https://raw.githubusercontent.com/nesretep/Kristians-Compendia/main/module.json",
