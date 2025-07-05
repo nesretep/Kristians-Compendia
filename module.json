@@ -28,9 +28,9 @@
         { "name": "macros",        "label": "Macros (shared)",          "path": "packs/macro.db",         "type": "Macro",        "system": "dnd5e" },
         { "name": "rolltable",     "label": "Roll Tables (shared)",     "path": "packs/rolltable.db",     "type": "RollTable",    "system": "dnd5e" },
         { "name": "playlist",      "label": "Playlist (shared)",        "path": "packs/playlist.db",      "type": "Playlist",     "system": "dnd5e" }
-      ],
+      ]
     }
-  ]
+  ],
   "download": "https://github.com/nesretep/Kristians-Compendia/releases/download/v1.3.0/Kristians-Compendia.zip",
   "manifest": "https://raw.githubusercontent.com/nesretep/Kristians-Compendia/main/module.json",
   "url": "https://github.com/nesretep/Kristians-Compendia"
