@@ -6,7 +6,7 @@ A Foundry VTT module to share Data between worlds via compendia.
 
 1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
 2. Click the `Install Module` button.
-3. Paste the Module's [Manifest URL](https://github.com/stschoelzel/My-Shared-Compendia/releases/download/v1.2.0/module.json)
+3. Paste the Module's [Manifest URL](https://raw.githubusercontent.com/nesretep/Kristians-Compendia/main/module.json)
    into the `Manifest URL` field.
 4. Click the `Install` button.
 
